@@ -23,6 +23,13 @@ hi VertSplit  cterm=NONE ctermbg=240 ctermfg=240
 hi LineNr     cterm=NONE ctermfg=239 
 hi NonTex     cterm=NONE ctermfg=232
 hi Visual     cterm=NONE ctermbg=238
+hi CursorLine cterm=NONE ctermbg=236 
+
+"Diff
+hi DiffDelete cterm=NONE ctermbg=16 ctermfg=16
+hi DiffAdd    cterm=NONE ctermbg=240 
+hi DiffText	  cterm=NONE ctermbg=53 ctermfg=219
+hi DiffChange cterm=NONE ctermbg=234
 
 if has("spell")
     hi SpellBad ctermbg=52  cterm=underline

@@ -2,11 +2,11 @@ vim-colorscheme-bitterjug
 =========================
 
 A vim colorscheme for 256 colour terminals with a lot of gray in it.
-Inspired by bitterjug.com and intended to still look ok with redshift on.
+Inspired by the mostly-grey look of bitterjug.com. 
 
+* readable even when [redshift][1] is active
+* Git diffs don't give me a headache
+* Work in progress
 
-TODO
-----
-
-* Sort out diffs to reduce noise like freyr
+[3]: http://jonls.dk/redshift/
 
