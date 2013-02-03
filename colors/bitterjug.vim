@@ -24,6 +24,7 @@ hi LineNr     cterm=NONE ctermfg=239
 hi NonTex     cterm=NONE ctermfg=232
 hi Visual     cterm=NONE ctermbg=238
 hi CursorLine cterm=NONE ctermbg=236 
+hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
 
 "Diff
 hi DiffDelete cterm=NONE ctermbg=16 ctermfg=16
