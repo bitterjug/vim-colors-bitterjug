@@ -12,7 +12,7 @@ hi Type       cterm=NONE ctermfg=250
 hi Identifier cterm=NONE ctermfg=138
 hi Constant   cterm=NONE ctermfg=242
 hi Comment    cterm=NONE ctermfg=59
-hi Special    cterm=NONE ctermfg=253
+hi Special    cterm=NONE ctermfg=109
 hi PreProc    cterm=NONE ctermfg=5 
 hi Title      cterm=bold ctermfg=255 
 hi Error      cterm=NONE ctermbg=52 ctermfg=218 
