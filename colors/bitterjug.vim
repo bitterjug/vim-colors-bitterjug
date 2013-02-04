@@ -14,8 +14,8 @@ hi Constant   cterm=NONE ctermfg=242
 hi Comment    cterm=NONE ctermfg=244
 hi Special    cterm=NONE ctermfg=253
 hi PreProc    cterm=NONE ctermfg=5 
-hi Title      cterm=NONE ctermfg=255 cterm=bold
-
+hi Title      cterm=bold ctermfg=255 
+hi Error      cterm=NONE ctermbg=52 ctermfg=218 
 
 "Furniture
 hi VertSplit  cterm=NONE ctermbg=240 ctermfg=240
