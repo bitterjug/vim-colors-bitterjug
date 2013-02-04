@@ -1,5 +1,4 @@
 " Vim colorscheme test
-" vim:vim
 set background=dark
 hi clear
 if exists("syntax_on")
@@ -10,14 +9,13 @@ let colors_name = "bitterjug"
 hi Normal     cterm=NONE ctermbg=235 ctermfg=246 
 hi Statement  cterm=NONE ctermfg=248
 hi Type       cterm=NONE ctermfg=250 
-hi Identifier cterm=NONE ctermfg=100
-hi Constant   cterm=NONE ctermfg=64
+hi Identifier cterm=NONE ctermfg=138
+hi Constant   cterm=NONE ctermfg=242
 hi Comment    cterm=NONE ctermfg=244
 hi Special    cterm=NONE ctermfg=253
 hi PreProc    cterm=NONE ctermfg=5 
 hi Title      cterm=NONE ctermfg=255 cterm=bold
 
-hi PythonComment cterm=NONE ctermfg=242 
 
 "Furniture
 hi VertSplit  cterm=NONE ctermbg=240 ctermfg=240
@@ -40,3 +38,6 @@ if has("spell")
     hi SpellBad ctermbg=52  cterm=underline
     hi SpellCap ctermbg=235 ctermfg=4 cterm=underline
 endif
+
+" Python
+hi pythonFunction cterm=NONE ctermfg=142
