@@ -1,4 +1,5 @@
 " Vim colorscheme test
+" vim:vim
 set background=dark
 hi clear
 if exists("syntax_on")
@@ -24,6 +25,9 @@ hi LineNr     cterm=NONE ctermfg=239
 hi NonText    cterm=NONE ctermfg=16
 hi Visual     cterm=NONE ctermbg=238
 hi CursorLine cterm=NONE ctermbg=236 
+hi CursorColumn cterm=NONE ctermbg=236 
+hi CursorColumn cterm=NONE ctermbg=236 
+hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249
 hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
 
 "Diff
