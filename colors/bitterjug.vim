@@ -26,7 +26,8 @@ hi CursorLine cterm=NONE ctermbg=236
 hi CursorColumn cterm=NONE ctermbg=236 
 hi CursorColumn cterm=NONE ctermbg=236 
 hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249
-hi SignColumn cterm=NONE ctermbg=235
+hi SignColumn   cterm=NONE ctermbg=235
+hi ColorColumn  cterm=NONE ctermbg=236
 
 "Folding
 hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
