@@ -34,6 +34,13 @@ hi DiffAdd    cterm=NONE ctermbg=240
 hi DiffText	  cterm=NONE ctermbg=53 ctermfg=219
 hi DiffChange cterm=NONE ctermbg=234
 
+"popup menus
+hi Pmenu      cterm=NONE ctermbg=241 ctermfg=248
+hi PmenuSel   cterm=NONE ctermbg=246 ctermfg=255
+hi PmenuSbar  cterm=NONE ctermbg=240 ctermfg=236
+hi PmenuThumb cterm=NONE ctermbg=246 ctermfg=240
+
+" Sepll errors
 if has("spell")
     hi SpellBad ctermbg=52  cterm=underline
     hi SpellCap ctermbg=235 ctermfg=4 cterm=underline
