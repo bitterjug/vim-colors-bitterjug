@@ -27,6 +27,7 @@ hi CursorColumn cterm=NONE ctermbg=236
 hi CursorColumn cterm=NONE ctermbg=236 
 hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249
 hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
+hi SignColumn cterm=NONE ctermbg=235
 
 "Diff
 hi DiffDelete cterm=NONE ctermbg=16 ctermfg=16
