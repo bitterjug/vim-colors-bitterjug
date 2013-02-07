@@ -18,7 +18,7 @@ hi Title      cterm=bold ctermfg=255
 hi Error      cterm=NONE ctermbg=52 ctermfg=218 
 
 "Furniture
-hi VertSplit  cterm=NONE ctermbg=240 ctermfg=240
+hi VertSplit  cterm=NONE ctermbg=233 ctermfg=233
 hi LineNr     cterm=NONE ctermfg=239 
 hi NonText    cterm=NONE ctermfg=16
 hi Visual     cterm=NONE ctermbg=238
@@ -28,6 +28,12 @@ hi CursorColumn cterm=NONE ctermbg=236
 hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249
 hi SignColumn   cterm=NONE ctermbg=235
 hi ColorColumn  cterm=NONE ctermbg=236
+
+"Tabs
+hi TabLine ctermbg=233 ctermfg=242 cterm=NONE
+hi TabLineSel ctermbg=235 ctermfg=248 cterm=NONE
+hi TabLineFill ctermbg=233 ctermfg=246 cterm=NONE
+
 
 "Folding
 hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
