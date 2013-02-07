@@ -11,7 +11,7 @@ hi Statement  cterm=NONE ctermfg=248
 hi Type       cterm=NONE ctermfg=250 
 hi Identifier cterm=NONE ctermfg=138
 hi Constant   cterm=NONE ctermfg=242
-hi Comment    cterm=NONE ctermfg=59
+hi Comment    cterm=NONE ctermfg=66
 hi Special    cterm=NONE ctermfg=109
 hi PreProc    cterm=NONE ctermfg=5 
 hi Title      cterm=bold ctermfg=250 
