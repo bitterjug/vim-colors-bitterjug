@@ -14,8 +14,9 @@ hi Constant   cterm=NONE ctermfg=242
 hi Comment    cterm=NONE ctermfg=59
 hi Special    cterm=NONE ctermfg=109
 hi PreProc    cterm=NONE ctermfg=5 
-hi Title      cterm=bold ctermfg=255 
+hi Title      cterm=bold ctermfg=250 
 hi Error      cterm=NONE ctermbg=52 ctermfg=218 
+hi Directory  cterm=NONE ctermfg=39
 
 "Furniture
 hi VertSplit  cterm=NONE ctermbg=233 ctermfg=233
@@ -28,6 +29,7 @@ hi CursorColumn cterm=NONE ctermbg=236
 hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249
 hi SignColumn   cterm=NONE ctermbg=235
 hi ColorColumn  cterm=NONE ctermbg=236
+hi ErrorMsg     cterm=bold ctermbg=124 ctermfg=235
 
 "Tabs
 hi TabLine ctermbg=233 ctermfg=242 cterm=NONE
@@ -48,6 +50,7 @@ hi DiffAdd    cterm=NONE ctermbg=240
 hi DiffText	  cterm=NONE ctermbg=53 ctermfg=219
 hi DiffChange cterm=NONE ctermbg=234
 
+hi MatchParen cterm=bold ctermbg=235 ctermfg=227
 
 "popup menus
 hi Pmenu      cterm=NONE ctermbg=241 ctermfg=248
