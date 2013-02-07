@@ -34,6 +34,9 @@ hi TabLine ctermbg=233 ctermfg=242 cterm=NONE
 hi TabLineSel ctermbg=235 ctermfg=248 cterm=NONE
 hi TabLineFill ctermbg=233 ctermfg=246 cterm=NONE
 
+" Search
+hi IncSearch  cterm=bold ctermbg=235 ctermfg=226
+hi Search     cterm=bold ctermbg=235 ctermfg=3
 
 "Folding
 hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
@@ -44,6 +47,7 @@ hi DiffDelete cterm=NONE ctermbg=16 ctermfg=16
 hi DiffAdd    cterm=NONE ctermbg=240 
 hi DiffText	  cterm=NONE ctermbg=53 ctermfg=219
 hi DiffChange cterm=NONE ctermbg=234
+
 
 "popup menus
 hi Pmenu      cterm=NONE ctermbg=241 ctermfg=248
