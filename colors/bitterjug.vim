@@ -60,7 +60,7 @@ hi PmenuThumb cterm=NONE ctermbg=246 ctermfg=240
 
 " Sepll errors
 if has("spell")
-    hi SpellBad ctermbg=52  cterm=underline
+    hi SpellBad cterm=NONE ctermbg=52  
     hi SpellCap ctermbg=235 ctermfg=4 cterm=underline
 endif
 
