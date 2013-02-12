@@ -42,7 +42,7 @@ hi Search     cterm=bold ctermbg=235 ctermfg=3
 
 "Folding
 hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
-hi Folded     cterm=NONE ctermbg=234 ctermfg=58
+hi Folded     cterm=NONE ctermbg=234 ctermfg=243
 
 "Diff
 hi DiffDelete cterm=NONE ctermbg=16 ctermfg=16
