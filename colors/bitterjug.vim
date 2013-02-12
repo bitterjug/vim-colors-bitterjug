@@ -65,4 +65,4 @@ if has("spell")
 endif
 
 " Python
-hi pythonFunction cterm=NONE ctermfg=142
+hi link pythonFunction Title
