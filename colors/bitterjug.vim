@@ -16,7 +16,7 @@ hi Special    cterm=NONE ctermfg=109
 hi PreProc    cterm=NONE ctermfg=5 
 hi Title      cterm=bold ctermfg=250 
 hi Error      cterm=NONE ctermbg=52 ctermfg=218 
-hi Directory  cterm=NONE ctermfg=39
+hi Directory  cterm=NONE ctermfg=67
 
 "Furniture
 hi VertSplit  cterm=NONE ctermbg=233 ctermfg=233
