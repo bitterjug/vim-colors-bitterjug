@@ -66,3 +66,4 @@ endif
 
 " Python
 hi link pythonFunction Title
+hi LongLines ctermbg=232
