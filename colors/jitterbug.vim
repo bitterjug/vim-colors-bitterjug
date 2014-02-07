@@ -7,14 +7,13 @@ endif
 
 let colors_name = "jitterbug"
 hi Normal     cterm=NONE ctermbg=235 ctermfg=250 
-hi Statement  cterm=NONE ctermfg=248
+hi Statement  cterm=NONE ctermfg=253
 hi Type       cterm=NONE ctermfg=250 
-hi Identifier cterm=NONE ctermfg=138
-hi Constant   cterm=NONE ctermfg=242
-hi Comment    cterm=NONE ctermfg=66
-hi Special    cterm=NONE ctermfg=109
-hi PreProc    cterm=NONE ctermfg=5 
-hi Title      cterm=bold ctermfg=250 
+hi Identifier cterm=NONE ctermfg=174
+hi Constant   cterm=NONE ctermfg=109
+hi Comment    cterm=NONE ctermfg=73
+hi PreProc    cterm=NONE ctermfg=133 
+hi Title      cterm=bold ctermfg=255 
 hi Error      cterm=NONE ctermbg=52 ctermfg=218 
 hi Directory  cterm=NONE ctermfg=67
 
@@ -67,3 +66,5 @@ endif
 " Python
 hi link pythonFunction Title
 hi LongLines ctermbg=232
+hi link pythonClass Title
+hi pythonSpaceError ctermbg=234
