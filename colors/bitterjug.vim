@@ -19,7 +19,7 @@ hi Error      cterm=NONE ctermbg=52 ctermfg=218
 hi Directory  cterm=NONE ctermfg=67
 
 "Furniture
-hi VertSplit  cterm=NONE ctermbg=233 ctermfg=233
+hi VertSplit  cterm=NONE ctermbg=235 ctermfg=0
 hi LineNr     cterm=NONE ctermfg=239 
 hi NonText    cterm=NONE ctermfg=16
 hi Visual     cterm=NONE ctermbg=238
@@ -67,3 +67,6 @@ endif
 
 " Python
 hi link pythonFunction Title
+hi link pythonClass Title
+hi LongLines ctermbg=233
+hi pythonSpaceError ctermbg=234
