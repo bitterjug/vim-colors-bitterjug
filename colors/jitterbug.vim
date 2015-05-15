@@ -16,6 +16,7 @@ hi PreProc    cterm=NONE ctermfg=133
 hi Title      cterm=bold ctermfg=255 
 hi Error      cterm=NONE ctermbg=52 ctermfg=218 
 hi Directory  cterm=NONE ctermfg=67
+hi Underlined cterm=underline ctermfg=67 
 
 "Furniture
 hi VertSplit  cterm=NONE ctermbg=233 ctermfg=233
