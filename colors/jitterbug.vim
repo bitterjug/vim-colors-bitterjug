@@ -8,7 +8,7 @@ endif
 let colors_name = "jitterbug"
 hi Normal     cterm=NONE ctermbg=235 ctermfg=250 
 hi Statement  cterm=bold ctermfg=243
-hi Type       cterm=bold ctermfg=250 
+hi Type       cterm=bold ctermfg=243 
 hi Identifier cterm=NONE ctermfg=174
 hi Constant   cterm=NONE ctermfg=109
 hi Comment    cterm=NONE ctermfg=73
