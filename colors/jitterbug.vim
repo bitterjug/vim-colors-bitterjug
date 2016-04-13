@@ -7,29 +7,28 @@ endif
 
 let colors_name = "jitterbug"
 hi Normal     cterm=NONE ctermbg=235 ctermfg=250 
-hi Statement  cterm=bold ctermfg=243
-hi Type       cterm=bold ctermfg=243 
-hi Identifier cterm=NONE ctermfg=174
-hi Constant   cterm=NONE ctermfg=109
-hi Comment    cterm=NONE ctermfg=73
-hi Special    cterm=NONE ctermfg=109
-hi PreProc    cterm=NONE ctermfg=133 
-hi Title      cterm=bold ctermfg=255 
-hi Error      cterm=NONE ctermbg=52 ctermfg=218 
-hi Directory  cterm=NONE ctermfg=67
-hi Underlined cterm=underline ctermfg=67 
+hi Statement  cterm=None ctermfg=243 guifg=#767676
+hi Type       cterm=bold ctermfg=243 guifg=#767676
+hi Identifier cterm=NONE ctermfg=174 guifg=#D78787
+hi Constant   cterm=NONE ctermfg=109 guifg=#87AfAf
+hi Comment    cterm=NONE ctermfg=73 guifg=#5FAFAF
+hi Special    cterm=NONE ctermfg=109 guifg=#87AFAF
+hi PreProc    cterm=NONE ctermfg=133 guifg=#AF5FAF
+hi Title      cterm=bold ctermfg=255 gui=bold guifg=#FFFFFF
+hi Error      cterm=NONE ctermbg=52 ctermfg=218 guifg=#FFAFD7
+hi Directory  cterm=NONE ctermfg=67 guifg=#5F87AF
+hi Underlined cterm=underline ctermfg=67 gui=underline 
 
 "Furniture
-hi VertSplit  cterm=NONE ctermbg=235 ctermfg=0
-hi LineNr     cterm=NONE ctermfg=241 
-hi NonText    cterm=NONE ctermfg=16
-hi SpecialKey cterm=NONE ctermfg=236
-hi Visual     cterm=NONE ctermbg=238
-hi CursorLine cterm=NONE ctermbg=236 
-hi CursorColumn cterm=NONE ctermbg=236 
-hi CursorColumn cterm=NONE ctermbg=236 
-hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249
-hi SignColumn   cterm=NONE ctermbg=235
+hi VertSplit  cterm=NONE ctermbg=235 ctermfg=0 guifg=#000000
+hi LineNr     cterm=NONE ctermfg=241 guifg=#626262
+hi NonText    cterm=NONE ctermfg=16 guifg=#000000
+hi SpecialKey cterm=NONE ctermfg=236 guifg=#303030
+hi Visual     cterm=NONE ctermbg=238 guibg=#444444
+hi CursorLine cterm=NONE ctermbg=236 guibg=#303030
+hi CursorColumn cterm=NONE ctermbg=236 guibg=#303030 
+hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249 guibg=#303030 guifg=#B2B2B2
+hi SignColumn   cterm=NONE ctermbg=235 
 hi ColorColumn  cterm=NONE ctermbg=236
 hi ErrorMsg     cterm=bold ctermbg=124 ctermfg=235
 
