@@ -20,7 +20,7 @@ hi Directory  cterm=NONE ctermfg=67 guifg=#5F87AF
 hi Underlined cterm=underline ctermfg=67 gui=underline 
 
 "Furniture
-hi VertSplit  cterm=NONE ctermbg=235 ctermfg=0 guifg=#000000
+hi VertSplit  cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
 hi LineNr     cterm=NONE ctermfg=241 guifg=#626262
 hi NonText    cterm=NONE ctermfg=16 guifg=#000000
 hi SpecialKey cterm=NONE ctermfg=236 guifg=#303030
@@ -48,16 +48,16 @@ hi Folded     cterm=NONE ctermbg=234 ctermfg=243
 "Diff
 hi DiffDelete cterm=NONE ctermbg=16 ctermfg=16
 hi DiffAdd    cterm=NONE ctermbg=237 
-hi DiffText	  cterm=bold ctermbg=240 ctermfg=15
+hi DiffText   cterm=bold ctermbg=240 ctermfg=15
 hi DiffChange cterm=NONE ctermbg=236
 
 hi MatchParen cterm=bold ctermbg=235 ctermfg=227
 
 "popup menus
-hi Pmenu      cterm=NONE ctermbg=241 ctermfg=248
-hi PmenuSel   cterm=NONE ctermbg=246 ctermfg=255
-hi PmenuSbar  cterm=NONE ctermbg=240 ctermfg=236
-hi PmenuThumb cterm=NONE ctermbg=246 ctermfg=240
+hi Pmenu      cterm=NONE ctermbg=241 ctermfg=248 guibg=#626262 guifg=#A8A8A8
+hi PmenuSel   cterm=NONE ctermbg=246 ctermfg=255 guibg=#949494 guifg=#ffffff
+hi PmenuSbar  cterm=NONE ctermbg=240 ctermfg=236 guibg=#585858 guifg=#303030
+hi PmenuThumb cterm=NONE ctermbg=246 ctermfg=240 guibg=#949494 guifg=#585858
 
 " Sepll errors
 if has("spell")
