@@ -28,7 +28,7 @@ hi Visual     cterm=NONE ctermbg=238 guibg=#444444
 hi CursorLine cterm=NONE ctermbg=236 guibg=#303030
 hi CursorColumn cterm=NONE ctermbg=236 guibg=#303030 
 hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249 guibg=#303030 guifg=#B2B2B2
-hi SignColumn   cterm=NONE ctermbg=235 
+hi SignColumn   cterm=NONE ctermbg=235 guibg=Normal
 hi ColorColumn  cterm=NONE ctermbg=236
 hi ErrorMsg     cterm=bold ctermbg=124 ctermfg=235
 
