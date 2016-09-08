@@ -46,7 +46,7 @@ hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
 hi Folded     cterm=NONE ctermbg=234 ctermfg=243
 
 "Diff
-hi DiffDelete cterm=NONE ctermbg=16 ctermfg=16
+hi DiffDelete cterm=NONE ctermbg=233 ctermfg=233
 hi DiffAdd    cterm=NONE ctermbg=237 
 hi DiffText   cterm=bold ctermbg=240 ctermfg=15
 hi DiffChange cterm=NONE ctermbg=238
