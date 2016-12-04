@@ -39,7 +39,7 @@ hi TabLineFill ctermbg=233 ctermfg=246 cterm=NONE
 
 " Search
 hi IncSearch  cterm=bold ctermbg=235 ctermfg=226
-hi Search     cterm=bold ctermbg=235 ctermfg=3
+hi Search     cterm=bold ctermbg=240 ctermfg=NONE
 
 "Folding
 hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
