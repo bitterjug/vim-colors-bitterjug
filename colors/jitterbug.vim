@@ -4,7 +4,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-
+  
 let colors_name = "jitterbug"
 hi Normal     cterm=NONE ctermbg=235 ctermfg=250 
 hi Statement  cterm=None ctermfg=243 guifg=#767676
@@ -23,7 +23,6 @@ hi Underlined cterm=underline ctermfg=67 gui=underline
 hi VertSplit  cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
 hi LineNr     cterm=NONE ctermfg=241 guifg=#626262
 hi NonText    cterm=NONE ctermfg=16 guifg=#000000
-hi SpecialKey cterm=NONE ctermfg=236 guifg=#303030
 hi Visual     cterm=NONE ctermbg=238 guibg=#444444
 hi CursorLine cterm=NONE ctermbg=236 guibg=#303030
 hi CursorColumn cterm=NONE ctermbg=236 guibg=#303030 
@@ -31,6 +30,8 @@ hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249 guibg=#303030 guifg=#B2B2B2
 hi SignColumn   cterm=NONE ctermbg=235 guibg=Normal
 hi ColorColumn  cterm=NONE ctermbg=236
 hi ErrorMsg     cterm=bold ctermbg=124 ctermfg=235
+
+hi link SpecialKey Ignore
 
 "Tabs
 hi TabLine ctermbg=233 ctermfg=242 cterm=NONE
