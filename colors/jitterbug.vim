@@ -73,3 +73,7 @@ hi link pythonFunction Title
 hi LongLines ctermbg=232
 hi link pythonClass Title
 hi pythonSpaceError ctermbg=234
+
+" NeoMake errors
+" Turn off the red (keep the underline)
+hi NeomakeErrorDefault ctermfg=None
