@@ -39,8 +39,8 @@ hi TabLineSel ctermbg=235 ctermfg=248 cterm=NONE
 hi TabLineFill ctermbg=233 ctermfg=246 cterm=NONE
 
 " Search
-hi IncSearch  cterm=bold ctermbg=235 ctermfg=226
-hi Search     cterm=bold ctermbg=240 ctermfg=NONE
+hi IncSearch  cterm=bold ctermbg=243 ctermfg=214
+hi Search     cterm=bold ctermbg=58 ctermfg=NONE
 
 "Folding
 hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
