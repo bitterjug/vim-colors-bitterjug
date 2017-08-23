@@ -78,3 +78,14 @@ hi pythonSpaceError ctermbg=234
 " NeoMake errors
 " Turn off the red (keep the underline)
 hi NeomakeErrorDefault ctermfg=None
+
+
+" Error symbols in ALE
+highlight ALEErrorSign ctermfg=88
+highlight ALEErrorLine ctermbg=234
+
+highlight ALEWarningSign ctermfg=94
+highlight ALEWarning cterm=underline ctermfg=172
+highlight ALEWarningLine ctermbg=236
+
+
