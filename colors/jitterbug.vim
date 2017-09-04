@@ -8,11 +8,11 @@ endif
 let colors_name = "jitterbug"
 hi Normal     cterm=NONE ctermbg=235 ctermfg=250 
 hi Statement  cterm=None ctermfg=243 guifg=#767676
-hi Type       cterm=bold ctermfg=243 guifg=#767676
+hi Type       cterm=bold ctermfg=144 guifg=#767676
 hi Identifier cterm=NONE ctermfg=138 guifg=#D78787
 hi Constant   cterm=NONE ctermfg=109 guifg=#87AfAf
 hi Comment    cterm=NONE ctermfg=73 guifg=#5FAFAF
-hi Special    cterm=NONE ctermfg=109 guifg=#87AFAF
+hi Special    cterm=NONE ctermfg=103 guifg=#87AFAF
 hi PreProc    cterm=NONE ctermfg=96 guifg=#AF5FAF
 hi Title      cterm=bold ctermfg=255 gui=bold guifg=#FFFFFF
 hi Error      cterm=NONE ctermbg=52 ctermfg=218 guifg=#FFAFD7
