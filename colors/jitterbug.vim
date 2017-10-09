@@ -82,10 +82,10 @@ hi NeomakeErrorDefault ctermfg=None
 
 " Error symbols in ALE
 highlight ALEErrorSign ctermfg=88
-highlight ALEErrorLine ctermbg=234
+highlight ALEErrorLine none
 
 highlight ALEWarningSign ctermfg=94
 highlight ALEWarning cterm=underline ctermfg=172
-highlight ALEWarningLine ctermbg=236
+highlight ALEWarningLine none
 
 
