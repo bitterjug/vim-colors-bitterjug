@@ -16,8 +16,10 @@ hi Identifier cterm=NONE ctermfg=138
     \guifg=#D78787
 hi Constant   cterm=NONE ctermfg=109 
     \guifg=#87AfAf
+
 hi Comment    cterm=NONE ctermfg=73  
-    \guifg=#5FAFAF
+hi Comment guifg=#666666 gui=italic
+
 hi Special    cterm=NONE ctermfg=103 
     \guifg=#87AFAF
 hi PreProc    cterm=NONE ctermfg=96  
