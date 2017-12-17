@@ -35,7 +35,7 @@ hi Underlined cterm=underline ctermfg=67
 
 "Furniture
 hi VertSplit  cterm=NONE ctermbg=235 ctermfg=0 
-    \guibg=#acb0a9 guifg=#2e3436
+    \gui=none guibg=none
 hi LineNr     cterm=NONE ctermfg=241 
     \guifg=#626262
 hi NonText    cterm=NONE ctermfg=16 
