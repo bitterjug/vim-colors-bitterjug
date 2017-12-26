@@ -6,7 +6,8 @@ if exists("syntax_on")
 endif
   
 let colors_name = "jitterbug"
-hi Normal     cterm=NONE ctermbg=235 ctermfg=250 
+hi Normal
+  \ cterm=NONE ctermbg=235 ctermfg=250
   \ guibg=#1c1c1c
 hi Statement  cterm=None ctermfg=243 
     \guifg=#767676
@@ -17,17 +18,24 @@ hi Identifier cterm=NONE ctermfg=138
 hi Constant   cterm=NONE ctermfg=109 
     \guifg=#87AfAf
 
-hi Comment    cterm=NONE ctermfg=73  
-hi Comment guifg=#666666 gui=italic
+hi Comment
+  \ cterm=NONE ctermfg=73
+  \ guisp=NONE guifg=#525252 gui=italic
 
 hi Special    cterm=NONE ctermfg=103 
     \guifg=#87AFAF
+
 hi PreProc    cterm=NONE ctermfg=96  
-    \guifg=#AF5FAF
-hi Title      cterm=bold ctermfg=255 
-    \gui=bold guifg=#FFFFFF
-hi Error      cterm=NONE ctermbg=52  ctermfg=218 
-    \guifg=#FFAFD7
+    \guifg=#926D92
+
+hi Title
+  \ cterm=bold ctermfg=255
+  \ gui=bold guifg=#FFFFFF
+
+hi Error
+  \ cterm=NONE ctermbg=52  ctermfg=218
+  \ guifg=#FFAFD7
+
 hi Directory  cterm=NONE ctermfg=67  
     \guifg=#5F87AF
 hi Underlined cterm=underline ctermfg=67 
@@ -61,24 +69,52 @@ hi TabLineSel ctermbg=235 ctermfg=248 cterm=NONE
 hi TabLineFill ctermbg=233 ctermfg=246 cterm=NONE
 
 " Search
+"
 hi IncSearch  cterm=bold ctermbg=243 ctermfg=214
 
 hi Search     cterm=None ctermbg=237 ctermfg=NONE
 hi Search     guibg=#333311 guifg=none
 
-"Folding
-hi FoldColumn cterm=NONE ctermbg=235 ctermfg=243
-hi Folded     cterm=NONE ctermbg=234 ctermfg=243
+" Folding
+"
+hi FoldColumn
+  \ cterm=NONE ctermbg=235 ctermfg=243
+  \ guibg=#262626 guifg=#767676
+
+hi Folded
+  \ cterm=NONE ctermbg=234 ctermfg=243
+  \ guisp=NONE guibg=
+  \ guisp=NONE guibg=#1C1C1C guifg=#767676
 
 "Diff
-hi DiffDelete cterm=NONE ctermbg=233 ctermfg=233
-hi DiffAdd    cterm=NONE ctermbg=237 
-hi DiffText   cterm=bold ctermbg=240 ctermfg=15
-hi DiffChange cterm=NONE ctermbg=238
-hi DiffRemoved ctermbg=234 ctermfg=124
-hi DiffAdded ctermbg=237 ctermfg=76
+"
+hi DiffDelete
+  \ cterm=NONE ctermbg=233 ctermfg=233
+  \ guibg=#220101 guifg=#121212
 
-hi MatchParen cterm=bold ctermbg=235 ctermfg=227
+hi DiffAdd
+  \ cterm=NONE ctermbg=237
+  \ guisp=NONE guibg=#2A3321
+
+hi DiffText
+  \ cterm=bold ctermbg=240 ctermfg=15
+  \ guisp=bold   guibg=#162422 guibg=#002E2E
+
+hi DiffChange
+  \ cterm=NONE ctermbg=238
+  \ guisp=NONE guibg=#1B2222
+
+hi DiffRemoved
+  \ ctermbg=234 ctermfg=124
+  \ guisp=NONE guibg=#1C1C1C guifg=#991F1F
+
+hi DiffAdded
+  \ ctermbg=237 ctermfg=76
+  \ guisp=NONE guibg=#3A3A3A guifg=#5FD700
+
+" Matched parenthesis
+hi MatchParen
+  \ cterm=bold ctermbg=235 ctermfg=227
 
 "popup menus
 hi Pmenu      cterm=NONE ctermbg=241 ctermfg=248 
