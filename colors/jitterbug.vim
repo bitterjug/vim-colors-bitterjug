@@ -89,9 +89,12 @@ hi ColorColumn
 hi ErrorMsg
   \ cterm=bold ctermbg=124 ctermfg=235
 
+" No special treament for concealed symbols
+hi Conceal none
+
 hi link SpecialKey Ignore
 
-"Tabs
+" Tabs
 "
 hi TabLine
   \ ctermbg=233 ctermfg=242 cterm=NONE
@@ -115,29 +118,32 @@ hi Search
 "
 hi FoldColumn
   \ cterm=NONE ctermbg=235 ctermfg=243
-  \ guibg=#262626 guifg=#767676
+  \ gui=NONE guibg=#161616
 
 hi Folded
   \ cterm=NONE ctermbg=234 ctermfg=243
   \ guisp=NONE guibg=#1C1C1C guifg=#767676
 
-"Diff
+hi LineNr
+  \ gui=none guibg=#161616 guifg=#404040
+
+" Diff
 "
 hi DiffDelete
   \ cterm=NONE ctermbg=233 ctermfg=233
-  \ guibg=#220101 guifg=#121212
+  \ guibg=#201111 guifg=#201111
 
 hi DiffAdd
   \ cterm=NONE ctermbg=237
-  \ guisp=NONE guibg=#2A3321
+  \ guisp=NONE guibg=#202620 guifg=202620
 
 hi DiffText
   \ cterm=bold ctermbg=240 ctermfg=15
-  \ guisp=bold   guibg=#162422 guibg=#002E2E
+  \ guisp=bold   guibg=#333350 guifg=none
 
 hi DiffChange
   \ cterm=NONE ctermbg=238
-  \ guisp=NONE guibg=#1B2222
+  \ guisp=NONE guibg=#16161a
 
 hi DiffRemoved
   \ ctermbg=234 ctermfg=124
@@ -190,12 +196,22 @@ hi NeomakeErrorDefault ctermfg=None
 
 
 " Error symbols in ALE
-highlight ALEErrorSign ctermfg=88
-highlight ALEErrorLine none
+highlight ALEErrorSign
+  \ ctermfg=88
+  \ guifg=#6D3C3C
 
-highlight ALEWarningSign ctermfg=94
-highlight ALEWarning cterm=underline ctermfg=172
+highlight ALEErrorLine none
+      \ guibg=#241916
+
+highlight ALEWarningSign
+  \ ctermfg=94
+  \ guifg=#927749
+
+highlight ALEWarning
+  \ cterm=underline ctermfg=172
+
 highlight ALEWarningLine none
+  \ guibg=#241E0B
 
 
 " Vim colorscheme files
