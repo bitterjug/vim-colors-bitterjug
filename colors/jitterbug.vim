@@ -41,7 +41,7 @@ hi PreProc
 
 hi Title
   \ cterm=bold ctermfg=255
-  \ gui=bold guifg=#FFFFFF
+  \ gui=bold guifg=#FFF2E6
 
 hi Error
   \ cterm=NONE ctermbg=52  ctermfg=218
@@ -154,11 +154,11 @@ hi DiffChange
 
 hi DiffRemoved
   \ ctermbg=234 ctermfg=124
-  \ guisp=NONE guibg=#1C1C1C guifg=#991F1F
+  \ guisp=NONE guibg=#1C1C1C guifg=#6D3C3C
 
 hi DiffAdded
   \ ctermbg=237 ctermfg=76
-  \ guisp=NONE guibg=#3A3A3A guifg=#5FD700
+  \ guisp=NONE guibg=#3A3A3A guifg=#476D47
 
 
 " Matched parenthesis
@@ -185,7 +185,6 @@ hi PmenuThumb
 
 
 " Spelling -- also used for ALE errors
-"TODO: these need gui colours
 hi SpellBad
   \ cterm=NONE ctermbg=52
   \ gui=underline guibg=#442222
@@ -227,11 +226,14 @@ highlight ALEWarningLine none
   \ guibg=#241E0B
 
 
-hi GitGutterChangeDefault
-  \ gui=none guibg=#161616 guifg=#927749
+hi GitGutterChange
+  \ gui=bold guibg=#161616 guifg=#927749
 
-hi GitGutterDeleteDefault
-  \ gui=NONE guibg=#161616 guifg=#6D3C3C
+hi GitGutterDelete
+  \ gui=bold guibg=#161616 guifg=#6D3C3C
+
+hi GitGutterAdd
+  \ guisp=bold guibg=#161616 guifg=#476D47
 
 " Vim colorscheme files
 " hi link vimHiKeyList Title
