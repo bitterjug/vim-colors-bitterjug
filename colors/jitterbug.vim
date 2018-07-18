@@ -216,6 +216,9 @@ highlight ALEErrorSign
 highlight ALEErrorLine none
       \ guibg=#241916
 
+highlight ALEError none
+      \ guibg=#241916
+
 highlight ALEWarningSign
   \ ctermfg=94
   \ guifg=#927749
