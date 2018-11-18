@@ -164,6 +164,7 @@ hi DiffAdded
 " Matched parenthesis
 hi MatchParen
   \ cterm=bold ctermbg=235 ctermfg=227
+  \ gui=bold  guibg=#444444
 
 
 "popup menus
@@ -213,6 +214,9 @@ highlight ALEErrorSign
   \ guifg=#6D3C3C
 
 highlight ALEErrorLine none
+"      \ guibg=#241916
+
+highlight ALEError none
       \ guibg=#241916
 
 highlight ALEWarningSign
@@ -238,3 +242,4 @@ hi GitGutterAdd
 " Vim colorscheme files
 " hi link vimHiKeyList Title
 hi link vimHiGroup Title
+
